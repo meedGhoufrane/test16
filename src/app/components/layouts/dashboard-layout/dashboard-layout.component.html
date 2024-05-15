@@ -1,0 +1,21 @@
+<!-- dashboard-layout.component.html -->
+
+<div class="dashboard-container">
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <!-- Sidebar content goes here -->
+      <ul>
+        <li><a routerLink="/dashboard/home" routerLinkActive="active">Home</a></li>
+        <li><a routerLink="/dashboard/analytics" routerLinkActive="active">Analytics</a></li>
+        <li><a routerLink="/dashboard/settings" routerLinkActive="active">Settings</a></li>
+        <!-- Add more sidebar items as needed -->
+      </ul>
+    </div>
+  
+    <!-- Main Content Area -->
+    <div class="main-content">
+      <!-- Content from the dashboard component will be projected here -->
+      <ng-content></ng-content>
+    </div>
+  </div>
+  
